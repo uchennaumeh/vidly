@@ -273,6 +273,10 @@
     <Compile Include="Migrations\201901181043295_UpdateMemberShipTypeAttribute.Designer.cs">
       <DependentUpon>201901181043295_UpdateMemberShipTypeAttribute.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201901301609314_seedUsers.cs" />
+    <Compile Include="Migrations\201901301609314_seedUsers.Designer.cs">
+      <DependentUpon>201901301609314_seedUsers.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -602,6 +606,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201901181043295_UpdateMemberShipTypeAttribute.resx">
       <DependentUpon>201901181043295_UpdateMemberShipTypeAttribute.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201901301609314_seedUsers.resx">
+      <DependentUpon>201901301609314_seedUsers.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
